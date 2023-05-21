@@ -1,0 +1,59 @@
+h1 {
+	color: blue;
+	font-size: 4em;
+}
+
+.portrait {
+	width: 20em;
+	flex-grow: 1;
+}
+
+body {
+	font-family: arial;
+	max-width: 80em;
+	margin: 0 auto;
+	padding: 0 10em;
+
+
+	flex-direction: column;
+	min-height: 100vh;
+	display: flex;
+}
+
+footer {
+	background-color: lightgray;
+	padding: 0.5em;
+
+	border-top: black;
+/*	margin: 0 auto;*/
+}
+
+header {
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+header a {
+	color: lightblue;
+	margin-right: 0.2em;
+	text-decoration: underline;
+	background-color: blue;
+}
+
+.main-body {
+	flex-grow: 1;
+
+}
+
+input {
+	border: 1px solid #cccccc;
+	padding: 8px;
+
+}
+
+button {
+	cursor: pointer;
+	border: 1px solid #888888;
+	color: white;
+	padding: 8px;
+}

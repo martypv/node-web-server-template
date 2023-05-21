@@ -1,0 +1,22 @@
+---INSTALL---
+
+npm init -y
+
+npm i express@4.16.4
+npm i hbs@4.0.1
+npm i request@2.88.0
+npm i validator@10.8.0
+npm i chalk@2.4.1
+npm i yargs@12.0.2  
+
+curl https://cli-assets.heroku.com/install.sh | sh
+
+brew install git
+
+xcode-select --install
+
+git init
+
+---RUN---
+
+nodemon src/app.js -e js,hbs
