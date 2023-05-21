@@ -33,6 +33,8 @@ const partialsPath = path.join(__dirname, '../public/templates/partials')
 
 const app = express()
 
+//sets port if deployed, 3000 if local
+const port = process.env.PORT || 3000
 
 //handlebars engine
 app.set('view engine', 'hbs')
@@ -177,7 +179,7 @@ app.get('*', (req, res) => {
 
 
 //starts server and has it listen on a port (defaults to 480)
-app.listen(3000, () => {
+app.listen(port, () => {
 	console.log('Server is running on port 3000')
 })
 
